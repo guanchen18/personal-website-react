@@ -129,7 +129,7 @@ li .link:hover{
     text-align: left;
   }
   .contact h1{
-      font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 5em;
     text-align: left;
   }
@@ -145,7 +145,7 @@ li .link:hover{
     display: inline-block;
     margin-top:0;
     margin-bottom: 0;
-    margin-right: 1em;
+    margin-right: 3em;
     margin-left: 0;
   }
   .contact li a{
