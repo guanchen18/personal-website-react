@@ -41,3 +41,28 @@ nav li .link{
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
+li .link:hover{
+  opacity: 1;
+}
+.active{
+  color:black;
+  opacity: 1;
+}
+.about{
+  display: flex;
+  flex-direction: row;
+}
+.about-content{
+  position: relative;
+  left:15em;
+}
+.about-content h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+  text-align: left;
+}
+.about-content p{
+  font-size: 1.3em;
+  text-align: left;
+  width: 37em;
+}
