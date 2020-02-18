@@ -17,6 +17,13 @@ class Contact extends Component{
                             Let's keep in touch!<br></br>
                         </h1>
                         <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
+                        <ul>
+                            {data.social.map((link, index)=>(
+                                <li key={index}>
+                                    <a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a>
+                                </li>
+                            ))}
+                        </ul>
                     </div>
                 </Fade>
             </div>

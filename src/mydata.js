@@ -29,8 +29,9 @@ export default {
             url:'https://github.com/guanchen18/',
         }
     ],
-    // Github 
+    // Social contacts 
     social: [
-        {name: 'Github', url: 'https://github.com/guanchen18/'}
+        {name: 'Github', url: 'https://github.com/guanchen18/'},
+        {name: 'LinkedIn', url: 'https://www.linkedin.com/in/guanchensong/'}
     ]
 }
