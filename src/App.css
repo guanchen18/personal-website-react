@@ -118,3 +118,7 @@ li .link:hover{
   grid-template-columns: repeat(2,1fr);
   grid-gap: 2em;
 }
+.project img{
+  width: 30em;  
+  height: 30em;
+  }
