@@ -24,7 +24,7 @@ export default {
         {
             id: 2,
             title: 'Weather App',
-            Serive: 'Web App',
+            service: 'Web App',
             imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
             url:'https://github.com/guanchen18/',
         }
