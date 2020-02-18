@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Work from './components/Work';
-
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <div className="App-header"><Header /></div>
       <div className="About"><About /></div>
       <div className="work"><Work /></div>
+      <div className="contact"><Contact /></div>
     </div>
   );
 }
