@@ -8,14 +8,14 @@ class Header extends Component{
     render() {
         return (
             <div>
-                <h1>CREATIVE</h1>
+                <h1 className='heading-background'>CREATIVE</h1>
                 <header>
                     <h1>
                         <Fade bottom cascade>guanchen</Fade>
                     </h1>
                 </header>
                 <Fade bottom>
-                <p>
+                <p className='header-title'>
                     Hello, I am Guanchen Song.<br></br>
                     I am living in Uppsala, SE.<br></br>
                     I love building things!<br></br>
