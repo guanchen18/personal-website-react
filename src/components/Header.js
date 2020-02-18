@@ -19,6 +19,7 @@ class Header extends Component{
                     Hello, I am Guanchen Song.<br></br>
                     I am living in Uppsala, SE.<br></br>
                     I love building things!<br></br>
+                    <button><a href={"guanchen.song.797@gmail.com"} rel="noopener noreferrer" >Contact</a></button>
                 </p>
                 </Fade>
             </div>
