@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 import Fade from 'react-reveal/Fade';
-import { LoremIpsum } from 'react-lorem-ipsum'
+// import { LoremIpsum } from 'react-lorem-ipsum';
+import data from '../mydata';
 
 class About extends Component {
     state = { }
@@ -12,7 +13,8 @@ class About extends Component {
                 <div className='about-content'>
                 <h1><Fade bottom cascade>About.</Fade></h1>
                 <Fade bottom>
-                    <LoremIpsum p={2} />
+                    {/* <LoremIpsum p={2} /> */}
+                    <p>{data.aboutText}</p>
                 </Fade>
                 </div>
 
