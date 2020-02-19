@@ -11,20 +11,22 @@ export default {
     // Contact email
     contactEmail: 'guanchen.song.797@gmail.com',
     // About 
-    aboutText: 'I am Guanchen. I am a happy and ambitious person who has a “ want to learn” personality. Previously, I was working for artificial intelligence in human language interactions. Since then I enjoy writing codes, and now I am actively looking for a position at front end development.',
+    aboutText: 'I am Guanchen. I am a happy and ambitious person who has a “ want to learn” personality. Previously, I was working for artificial intelligence in human language interactions. Since then I enjoy writing codes.',
     // Project
     projects: [
         {
             id: 1,
             title: 'Todo List',
             service: 'Web Development',
-            imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+            tools: 'React, JavaScript, CSS',
+            imageSrc:'src/assets/todoApp.png',
             url:'https://github.com/guanchen18/todo-app',
         },
         {
             id: 2,
             title: 'Weather App',
             service: 'Web Development',
+            tools: 'React, JavaScript, CSS',
             imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
             url:'https://github.com/guanchen18/',
         },
@@ -32,6 +34,15 @@ export default {
             id: 3,
             title: 'Poketimes',
             service:'Web Development',
+            tools: 'React router, AWS, Javascript, CSS',
+            imageSrc:'',
+            url:'https://github.com/guanchen18/'
+        },
+        {
+            id: 4,
+            title: 'Word Embeddings',
+            service:'Natural Language Processing, Machine Learning',
+            tools: 'Python, Pandas, NumPy, Sklearn, Big data, Master thesis',
             imageSrc:'',
             url:'https://github.com/guanchen18/'
         },

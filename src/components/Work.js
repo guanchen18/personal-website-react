@@ -17,6 +17,7 @@ class Work extends Component {
                             key={project.id}
                             title = {project.title}
                             service = {project.service}
+                            tools = {project.tools}
                             imageSrc = {project.imageSrc}
                             url={project.url}
                         />
