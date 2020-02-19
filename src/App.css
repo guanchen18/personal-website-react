@@ -130,7 +130,7 @@ li .link:hover{
   }
   .contact h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 5em;
+    font-size: 2em;
     text-align: left;
   }
   .amazing-color{
@@ -139,7 +139,7 @@ li .link:hover{
   }
   .contact .email{
     color:black;
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .contact li{
     display: inline-block;
@@ -152,11 +152,20 @@ li .link:hover{
     text-decoration: none;
     color:black;
   }
+ .inline-container{
+   padding: 0em;
+   color: plum;
+   font-size: 1.5em;
+
+  } 
   .footer{
     position: relative;
     bottom: 0em;
-    padding: 1em;
+    padding: 0em;
     text-align: center;
+    /* background-color:pink; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
   }
 
   
