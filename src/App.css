@@ -58,7 +58,7 @@ li .link:hover{
   opacity: 1;
 }
 .header-title button{
-  background: black;
+  background: palevioletred;
   border: 0px;
   padding: 1em 3em;
   transition: all 0.2s ease-out;
