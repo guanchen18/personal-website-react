@@ -96,7 +96,7 @@ const Contact = () => {
                             <a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a>
                         </li>
                     ))}
-                    <span>Made ❤ by Guanchen Song</span>
+                    {/* <span>Made ❤ by Guanchen Song</span> */}
                 </ul>
             </div>
         </Fade>

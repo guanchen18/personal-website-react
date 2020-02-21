@@ -2,16 +2,16 @@ export default {
     name: 'Guanchen Song',
     headerTagline: [
         // Line one for header
-        'Hi, you found me! I am Guanchen.',
+        'Hi nice to meet you! I am Guanchen.',
         // Line two for header
         'I am living in Uppsala, SE.',
         // Line three for header
-        'I love building things!'
+        'I love working with data and building websites!'
     ],
     // Contact email
     contactEmail: 'guanchen.song.797@gmail.com',
     // About 
-    aboutText: 'I am Guanchen. I am a happy and ambitious person who has a “ want to learn” personality. Previously, I was working for artificial intelligence in human language interactions. Since then I enjoy writing codes.',
+    aboutText: 'I am Guanchen. I am a happy and ambitious person who has a “ want to learn” personality. Previously, I was working for artificial intelligence in human language interactions. Since then I enjoy writing codes and analyzing data.',
     // Project
     projects: [
         {
@@ -19,7 +19,7 @@ export default {
             title: 'Todo List',
             service: 'Web Development',
             tools: 'React, JavaScript, CSS',
-            imageSrc:'src/assets/todoApp.png',
+            imageSrc: require('./assets/todo.png'),
             url:'https://github.com/guanchen18/todo-app',
         },
         {
