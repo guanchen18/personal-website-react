@@ -27,24 +27,24 @@ export default {
             title: 'Weather App',
             service: 'Web Development',
             tools: 'React, JavaScript, CSS',
-            imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-            url:'https://github.com/guanchen18/',
+            imageSrc: require('./assets/weather.jpg'),
+            url:'https://github.com/guanchen18/know-weather-react-app/',
         },
         {
             id: 3,
             title: 'Poketimes',
             service:'Web Development',
             tools: 'React router, AWS, Javascript, CSS',
-            imageSrc:'',
-            url:'https://github.com/guanchen18/'
+            imageSrc: require('./assets/poke.png'),
+            url:'https://github.com/guanchen18/react-router-poketimes/'
         },
         {
             id: 4,
             title: 'Word Embeddings',
             service:'Natural Language Processing, Machine Learning',
             tools: 'Python, Pandas, NumPy, Sklearn, Big data, Master thesis',
-            imageSrc:'',
-            url:'https://github.com/guanchen18/'
+            imageSrc: require('./assets/wordEmbed.png'),
+            url:'http://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1359740%22&dswid=9702'
         },
     ],
     // Social contacts 

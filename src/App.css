@@ -90,7 +90,7 @@ li .link:hover{
 .header-title{
   position: relative;
   font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
+  font-size: 2em;
   text-align: left;
   top:2em;
 }
@@ -135,8 +135,9 @@ li .link:hover{
   /* grid-gap: 2em; */
 }
 .project img{
-  width: 50%;  
-  /* height: 100%; */
+  width: 30em;  
+  height: 30em;
+  /* height: 20em; */
   }
   .contact{
     position: relative;
