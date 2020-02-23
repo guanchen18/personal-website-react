@@ -4,7 +4,7 @@ export default {
         // Line one for header
         'Hi nice to meet you! I am Guanchen.',
         // Line two for header
-        'I am living in Uppsala, SE.',
+        'I am from China and living in Uppsala, SE.',
         // Line three for header
         'I love working with data and building websites!'
     ],
