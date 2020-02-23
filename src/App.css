@@ -263,3 +263,79 @@ li .link:hover{
     font-size: 2em;
   }
 }
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  body{
+      font-size: 10px;
+    }
+  header h1{
+  font-size: 5em;  
+  padding: 1em;
+  margin-right: 0em;
+  }
+  
+  nav{
+    display: none;
+  }
+  .header-title{
+    font-size: 3.6em;
+    text-align: left;
+    top:1em;
+    left:1em;
+  }
+  .about{position: relative;
+        display: flex;
+        top:-10em;
+  }
+  .about img{
+    display: none
+  }
+  .about-content{
+    left:6em;
+  }
+  .about-content p{
+    font-size: 3.5em;
+    text-align: left;
+    width: 700px;
+  }
+  
+  .work{
+    left:6em;
+    top:4em;
+    align-items: flex-start;
+  }
+  .work .work-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5em;
+  }
+  .project img{
+  width: 30em;  
+  height: 30em;
+  }
+  
+  .contact{
+    top:15em;
+    left:6em;
+  }
+  .contact h1{
+    font-size: 4em;
+  }
+  .contact .email{
+    font-size: 3.5em;
+  }
+  
+  .contact li{
+    display: block;
+    padding: 2em;
+  }
+  .contact li a{
+    font-size: 2.5em;
+  }
+  .footer{
+    top:4em;
+    padding: 1em;
+    font-size: 2em;
+  }
+  
+  }
