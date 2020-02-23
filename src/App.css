@@ -339,3 +339,79 @@ li .link:hover{
   }
   
   }
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+  body{
+      font-size: 20px;
+    }
+    header h1{
+      font-size: 3em;
+      margin-right: 25em;
+    }
+  
+  
+    nav{
+    left:60em;
+    top:12em;
+    z-index: 100;
+  }
+  nav li{
+     font-size: 3em;
+  
+  }
+  .header-title{
+    font-size: 5em;
+    top:1em;
+    left:1em;
+  }
+  .about{position: relative;
+        display: flex;
+        top:-20em;
+  }
+  .about-content{
+    left:10em;
+  }
+  .about-content p{
+    font-size: 3.5em;
+    text-align: left;
+    width: 25em;
+  }
+  .about img{
+    margin-left: 1em;
+  }
+  
+  .work{
+    left:10em;
+    top:4em;
+    align-items: flex-start;
+  }
+  .work .work-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .project img{
+  width: 32em;  
+  height: 32em;
+  }
+  
+  .contact{
+    top:10em;
+    left:8em;
+  }
+  .contact h1{
+    font-size: 8em;
+  }
+  .contact .email{
+    font-size: 5em;
+  }
+  
+  .contact li a{
+    font-size: 4em;
+    padding: 1em;
+  }
+  .footer{
+    top:4em;
+    padding: 1em;
+    font-size: 4em;
+  }
+}
