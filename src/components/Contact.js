@@ -91,11 +91,11 @@ const Contact = () => {
                   {/* </a> */}
                 </div>
                 <ul>
-                    {data.social.map((link, index)=>(
-                        <li key={index}>
-                            <a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a>
-                        </li>
-                    ))}
+                    {data.social.map((link, index)=>{
+                      if (link.name==="Email"){return <li key={index}><a href={`mailto:${link.name}`}>{link.name}</a></li>}
+                      else{
+                        return <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>}
+                    })}
                     {/* <span>Made ❤ by Guanchen Song</span> */}
                 </ul>
             </div>
