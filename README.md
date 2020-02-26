@@ -1,6 +1,5 @@
 # personal-website-react
-
-This is my personal website.
+Please feel free to check my website: https://guanchensong.netlify.com/.
 
 # Installment
 ````
