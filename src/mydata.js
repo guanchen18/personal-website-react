@@ -2,9 +2,9 @@ export default {
     name: 'Guanchen Song',
     headerTagline: [
         // Line one for header
-        'Hi nice to meet you! I am Guanchen.',
+        'Hi nice to meet you! I am Guanchen from China.',
         // Line two for header
-        'I am from China and living in Uppsala, SE.',
+        'I am living in Uppsala, Sweden.',
         // Line three for header
         'I love working with data and building websites!'
     ],
