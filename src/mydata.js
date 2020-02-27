@@ -2,12 +2,6 @@ export default {
     name: 'Guanchen Song',
     // Contact email
     contactEmail: 'guanchen.song.797@gmail.com',
-    // About
-    aboutText: 'Hi nice to meet you! I am Guanchen Song.'
-    +' I am from China and living in Uppsala, SE.'
-    +' I am a happy and ambitious person who has a “ want to learn” personality.'
-    +' Previously, I was working for artificial intelligence in human language interactions.'
-    +' Since then I enjoy writing codes and analyzing data.',
     // Project
     projects: [
         {

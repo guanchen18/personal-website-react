@@ -26,12 +26,21 @@ body{
   margin: 5vw;
 }
 
+select {
+  right: 1vw;
+  top: 0.5vw;
+  height: 2vw;
+  font-size: 1vw;
+  max-width: 100%;
+  z-index: 101;
+  position:fixed;
+}
+
 nav{
   background-color: pink;
   height: 3vw;
   top: 0;
   left: 0;
-  right: 0;
   position:fixed;
   text-align: left;
   width: 100%;
@@ -39,8 +48,7 @@ nav{
 }
 nav ul{
   margin-left: 0;
-  margin-top: 0;
-  
+  margin-top: 0;  
 }
 nav li{
   display: inline-block;
@@ -56,8 +64,11 @@ nav li .link{
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
-li .link:hover{
+nav li .link:hover{
   opacity: 1;
+}
+nav select{
+  text-align: right;
 }
 
 .about{
