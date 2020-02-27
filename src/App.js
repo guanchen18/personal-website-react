@@ -12,7 +12,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="App-header"><Header /></div>
+      <h1 className='heading-background'>GUANCHEN</h1>
+      <div className="Header"><Header /></div>
       <div className="About"><About /></div>
       <div className="work"><Work /></div>
       <div className="contact"><Contact /></div>

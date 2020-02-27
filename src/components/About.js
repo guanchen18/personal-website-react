@@ -13,7 +13,6 @@ class About extends Component {
                 <div className='about-content'>
                 <h1><Fade bottom cascade>About.</Fade></h1>
                 <Fade bottom>
-                    {/* <LoremIpsum p={2} /> */}
                     <p>{data.aboutText}</p>
                 </Fade>
                 </div>

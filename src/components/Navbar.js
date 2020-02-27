@@ -15,25 +15,12 @@ class Navbar extends Component {
                         <Link 
                             className='link'
                             activeClass="active" 
-                            to="home" 
-                            spy={true} 
-                            smooth={true} 
-                            offset={-70} 
-                            duration={500} 
-                            onClick={this.scrollToTop}>
-                        Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link 
-                            className='link'
-                            activeClass="active" 
-                            to="about" 
+                            to="Header" 
                             spy={true} 
                             smooth={true} 
                             offset={-70} 
                             duration={500}>
-                        About
+                        Home
                         </Link>
                     </li>
                     <li>
