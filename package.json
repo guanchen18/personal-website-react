@@ -12,7 +12,11 @@
     "react-lorem-ipsum": "^1.4.4",
     "react-reveal": "^1.2.2",
     "react-scripts": "3.4.0",
-    "react-scroll": "^1.7.16"
+    "react-scroll": "^1.7.16",
+    "i18next": "latest",
+    "react-i18next": "latest",
+    "i18next-xhr-backend": "latest",
+    "i18next-browser-languagedetector": "latest"
   },
   "scripts": {
     "start": "react-scripts start",

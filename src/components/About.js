@@ -1,25 +1,22 @@
-import React, { Component } from 'react';
-
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 import Fade from 'react-reveal/Fade';
-// import { LoremIpsum } from 'react-lorem-ipsum';
-import data from '../mydata';
 
-class About extends Component {
-    state = { }
-
-    render () {
-        return (
-            <div className="about">
-                <div className='about-content'>
-                <h1><Fade bottom cascade>About.</Fade></h1>
-                <Fade bottom>
-                    {/* <LoremIpsum p={2} /> */}
-                    <p>{data.aboutText}</p>
-                </Fade>
-                </div>
-
-            </div>
-        )
-    }
+function About()  {
+    const { t } = useTranslation();
+    return (
+        <div className='about-content'>
+            <h1><Fade bottom cascade>About.</Fade></h1>
+            <Fade bottom>
+                <p>
+                    {t('About1')}
+                    {t('About2')}
+                    {t('About3')}
+                    {t('About4')}
+                </p>
+            </Fade>
+        </div>
+    )
 }
+
 export default About;
