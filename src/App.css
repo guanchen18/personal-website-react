@@ -26,6 +26,11 @@ body{
   margin: 5vw;
 }
 
+.Header img{
+  border-radius: 50%;
+  height: 30vw;
+}
+
 select {
   right: 1vw;
   top: 0.5vw;
