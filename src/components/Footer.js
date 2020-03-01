@@ -1,16 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 
-
-class Footer extends Component{
-    state = {}
-
-    render () {
-        return (
-            <div>
-                <p className="footer">Made ❤ by Guanchen Song</p>
-            </div>
-        )
-    }
+function Footer() {
+    const { t } = useTranslation(); 
+    return (
+        <div>
+            <p className="footer"> {t("Footer.message")} </p>
+        </div>
+    )
 }
 
 export default Footer;

@@ -1,9 +1,48 @@
 {
+    "Nav": {
+        "Home": "HOME",
+        "Work": "WORK",
+        "Contact": "CONTACT"
+    },
+
     "title": "My personal website",
 
-    "About1": "Hi nice to meet you! I am Guanchen Song, a Chinese woman living in Sweden. ",
-    "About2": "I am a happy and ambitious person who has a “ want to learn” personality. ",
-    "About3": "I have studied machine learning in human language interactions. ",
-    "About4": "Since then I enjoy writing codes and analyzing data. "
+    "About": {
+        "line1": "Hello, nice to meet you!",
+        "line2": "I am Guanchen Song, a Chinese woman living in Sweden. ",
+        "line3": "I consider myself as an ambitious person who is always excited to learn new stuff. ",
+        "line4": "I have studied machine learning in human language interactions. ",
+        "line5": "Since then I've enjoy writing codes and analyzing data. "
+    },
 
+    "Work": {
+        "title": "Work",
+        "project1": {
+            "title": "Todo List",
+            "description": "Web application to create a dynamic list. Made with React"
+        },
+        "project2": {
+            "title": "Weather App",
+            "description": "Web application to find out current weather. Made with React"
+        },
+        "project3": {
+            "title": "Poketimes",
+            "description": "Web application to practice React Router."
+        },
+        "project4": {
+            "title": "Word Embeddings",
+            "description": "My Master thesis project in Natural Language Processing."
+        }
+    },
+
+    "Contact": {
+        "title": "Contact",
+        "message": "Let's keep in touch! ",
+        "linkedin": "LinkedIn",
+        "mail": "Mail"
+    },
+
+    "Footer": {
+        "message": "Made with ❤ by Guanchen Song"
+    }
 }

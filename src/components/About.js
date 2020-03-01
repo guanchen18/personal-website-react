@@ -1,20 +1,19 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Fade from 'react-reveal/Fade';
+
+import imgProfile from '../assets/header/profile.jpg';
 
 function About()  {
     const { t } = useTranslation();
     return (
-        <div className='about-content'>
-            <h1><Fade bottom cascade>About.</Fade></h1>
-            <Fade bottom>
-                <p>
-                    {t('About1')}
-                    {t('About2')}
-                    {t('About3')}
-                    {t('About4')}
-                </p>
-            </Fade>
+        <div className='flex-container'>
+            <img src={imgProfile} alt="my profile"/>
+            <div className='flex-text'>
+                <h3>{t('About.line1')}</h3>
+                {t('About.line2')}
+                {t('About.line3')}
+                {t('About.line4')}
+            </div>
         </div>
     )
 }
