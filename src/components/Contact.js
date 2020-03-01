@@ -17,9 +17,9 @@ const Contact = () => {
             </h2>
             <ul>
               {data.social.map((link, index)=>{
-                if (link.name==="Email"){return <li key={index}><a href={`mailto:${link.name}`}>{link.name}</a></li>}
+                if (link.name==="Email"){return <li key={index}><a href={`mailto:${link.name}`}>{t(link.name)}</a></li>}
                 else{
-                  return <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
+                  return <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{t(link.name)}</a></li>
                 }
               })}
             </ul>

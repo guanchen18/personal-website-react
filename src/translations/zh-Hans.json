@@ -1,35 +1,44 @@
 {
-    "title": "My personal website",
+    "Nav": {
+        "Home": "简介",
+        "Work": "项目",
+        "Contact": "联系方式"
+    },
+
+    "title": "我的个人主页",
 
     "About": {
-        "line1": "Hello, nice to meet you!",
-        "line2": "I am Guanchen Song, a Chinese woman living in Sweden. ",
-        "line3": "I consider myself as an ambitious person who is always excited to learn new stuff. ",
-        "line4": "I have studied machine learning in human language interactions. ",
-        "line5": "Since then I've enjoy writing codes and analyzing data. "
+        "line1": "你好，很高兴认识你！",
+        "line2": "我是宋冠辰，现住在乌普萨拉，瑞典。 ",
+        "line3": "我喜欢学习编程和语言。",
+        "line4": "我毕业于乌普萨拉大学的自然语言处理专业。 ",
+        "line5": ""
     },
 
     "Work": {
+        "title": "项目",
         "project1": {
-            "title": "Todo List",
-            "description": "Web application to create a dynamic list. Made with React"
+            "title": "任务清单",
+            "description": "React开发Web应用程序：添加，删除用户的任务。"
         },
         "project2": {
-            "title": "Weather App",
-            "description": "Web application to find out current weather. Made with React"
+            "title": "天气查询",
+            "description": "React开发Web应用程序：可查找当前天气。"
         },
         "project3": {
             "title": "Poketimes",
-            "description": "Web application to practice React Router."
+            "description": "React开发Web应用程序：练习 React Router。"
         },
         "project4": {
-            "title": "Word Embeddings",
-            "description": "My Master thesis project in Natural Language Processing."
+            "title": "多语言词向量",
+            "description": "硕士毕业论文：自然语言处理方向。"
         }
     },
 
     "Contact": {
-        "title": "Contact",
-        "message": "Let's keep in touch! "
+        "title": "联系方式",
+        "message": "让我们保持联系吧！",
+        "linkedin": "领英",
+        "mail": "邮箱"
     }
 }

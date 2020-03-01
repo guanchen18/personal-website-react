@@ -126,6 +126,9 @@ nav select{
   height: 15vw;
   width: 15vw;  
 }
+.project p{
+  max-inline-size: 90%;
+}
 
 .contact{
   margin: 10%;

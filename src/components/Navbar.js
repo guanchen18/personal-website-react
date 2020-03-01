@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
+import { withTranslation } from 'react-i18next';
 
 class Navbar extends Component {
     scrollToTop = () => {
@@ -19,7 +20,7 @@ class Navbar extends Component {
                             smooth={true} 
                             offset={-70} 
                             duration={500}>
-                        Home
+                        {this.props.t("Nav.Home")}
                         </Link>
                     </li>
                     <li>
@@ -31,7 +32,7 @@ class Navbar extends Component {
                             smooth={true} 
                             offset={-70} 
                             duration={500}>
-                        Work
+                        {this.props.t("Nav.Work")}
                         </Link>
                     </li>
                     <li>
@@ -43,7 +44,7 @@ class Navbar extends Component {
                             smooth={true} 
                             offset={-70} 
                             duration={500}>
-                        Contact
+                        {this.props.t("Nav.Contact")}
                         </Link>
                     </li>
                 </ul>
@@ -52,4 +53,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar;
+export default withTranslation() (Navbar);

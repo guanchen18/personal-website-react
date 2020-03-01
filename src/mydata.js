@@ -36,7 +36,7 @@ export default {
     // Social contacts 
     social: [
         {name: 'Github', url: 'https://github.com/guanchen18/'},
-        {name: 'LinkedIn', url: 'https://www.linkedin.com/in/guanchensong/'},
-        {name: 'Email', url: 'guanchen.song.797@gmail.com'},
+        {name: 'Contact.linkedin', url: 'https://www.linkedin.com/in/guanchensong/'},
+        {name: 'Contact.mail', url: 'guanchen.song.797@gmail.com'},
     ]
 }

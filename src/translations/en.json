@@ -1,4 +1,10 @@
 {
+    "Nav": {
+        "Home": "HOME",
+        "Work": "WORK",
+        "Contact": "CONTACT"
+    },
+
     "title": "My personal website",
 
     "About": {
@@ -10,6 +16,7 @@
     },
 
     "Work": {
+        "title": "Work",
         "project1": {
             "title": "Todo List",
             "description": "Web application to create a dynamic list. Made with React"
@@ -30,7 +37,9 @@
 
     "Contact": {
         "title": "Contact",
-        "message": "Let's keep in touch! "
+        "message": "Let's keep in touch! ",
+        "linkedin": "LinkedIn",
+        "mail": "Mail"
     },
 
     "Footer": {
