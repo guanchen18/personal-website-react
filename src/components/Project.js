@@ -1,25 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import Fade from 'react-reveal/Fade';
 
-
-class Project extends Component {
-    state = {}
-    
-    render() {
-        return (
-            <Fade bottom>
-                <div className='project'>
-                    <a href={this.props.url}>
-                        <img src={this.props.imageSrc} alt={this.props.title}/>
-                    </a>
-                    <h1>{this.props.title}</h1>
-                    <span>{this.props.service}</span><br></br>
-                    <h4>{this.props.tools}</h4>
-                </div>
-            </Fade>
-        )
-    }
+function Project(props) {
+    const { t } = useTranslation(); 
+    return (
+        <Fade bottom>
+            <div className='project'>
+                <a href={props.url}>
+                    <img src={props.imageSrc} alt={props.title}/>
+                    <h1> {t(props.title)} </h1>
+                </a>
+                <p> {t(props.description)} </p>
+            </div>
+        </Fade>
+    )
 }
 
 export default Project;
